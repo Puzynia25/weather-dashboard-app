@@ -1,0 +1,22 @@
+@import "weather-react-icons/lib/css/weather-icons.css";
+
+.app {
+    height: 100vh;
+    overflow-y: scroll;
+    // background: linear-gradient(to bottom, #071f53e2, #071f534c);
+    background: url("./assets/img/bg-main.jpg") no-repeat top;
+    background-size: cover;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.content {
+    max-width: 1040px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 50px 0;
+    border-radius: 25px;
+}
+
+.bg-darker {
+    background-color: rgba(0, 0, 0, 0.2);
+}
