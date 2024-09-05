@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/weather-dashboard-app/static/css/main.5a02d508.css",
+    "main.js": "/weather-dashboard-app/static/js/main.a615d361.js",
+    "static/media/bg-main.jpg": "/weather-dashboard-app/static/media/bg-main.71208c7978ead9594330.jpg",
+    "static/media/weathericons-regular-webfont.svg": "/weather-dashboard-app/static/media/weathericons-regular-webfont.1341a15172cec8dae06e.svg",
+    "static/media/weathericons-regular-webfont.eot": "/weather-dashboard-app/static/media/weathericons-regular-webfont.bb2ec001c20cf752f852.eot",
+    "static/media/weathericons-regular-webfont.ttf": "/weather-dashboard-app/static/media/weathericons-regular-webfont.0942d1e1c447d6ce3ffc.ttf",
+    "static/media/weathericons-regular-webfont.woff": "/weather-dashboard-app/static/media/weathericons-regular-webfont.371511ddba5fdac0538c.woff",
+    "static/media/weathericons-regular-webfont.woff2": "/weather-dashboard-app/static/media/weathericons-regular-webfont.e218aee6928fe3da9ed6.woff2",
+    "static/media/list-task.svg": "/weather-dashboard-app/static/media/list-task.b1a7adb8c3aad8f87244b6cd5007b705.svg",
+    "static/media/trash.svg": "/weather-dashboard-app/static/media/trash.55dfcc34f3c91c849ace90ad07102293.svg",
+    "static/media/geo-alt.svg": "/weather-dashboard-app/static/media/geo-alt.7857cd25878bd76cec6fdae49d2ae9f2.svg",
+    "index.html": "/weather-dashboard-app/index.html",
+    "main.5a02d508.css.map": "/weather-dashboard-app/static/css/main.5a02d508.css.map",
+    "main.a615d361.js.map": "/weather-dashboard-app/static/js/main.a615d361.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a02d508.css",
+    "static/js/main.a615d361.js"
+  ]
+}
