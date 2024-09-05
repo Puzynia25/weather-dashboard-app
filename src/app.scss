@@ -1,5 +1,3 @@
-@import "weather-react-icons/lib/css/weather-icons.css";
-
 .app {
     height: 100vh;
     overflow-y: scroll;
@@ -19,4 +17,8 @@
 
 .bg-darker {
     background-color: rgba(0, 0, 0, 0.2);
+}
+
+.temp {
+    font-size: 3rem;
 }

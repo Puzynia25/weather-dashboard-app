@@ -20,7 +20,7 @@ const WeatherSummary = ({ weatherInfo }) => {
     const sunsetTime = getTime(weatherInfo?.sys?.sunset + timezone);
 
     return (
-        <div className="d-flex column-gap-5 summary align-items-end">
+        <div className="flex-column flex-sm-row d-flex gap-3 gap-md-5 summary align-items-sm-end">
             <div>
                 <WeatherIcon iconId={iconId} name="owm" className="display-1" />
                 <div className="d-flex mt-4 fw-bold justify-content-start align-items-middle">
@@ -34,12 +34,12 @@ const WeatherSummary = ({ weatherInfo }) => {
                     Sunset: <b>{sunsetTime}</b>
                 </div>
             </div>
-            <div className="px-3">
+            <div className="px-md-3">
                 <div>
                     {todayDate} {todayTime}
                 </div>
                 <div className="display-1">{getCelsius(weatherInfo?.main?.temp)} °C</div>
-                <div>Feels like {getCelsius(weatherInfo?.main?.feels_like)} °C</div>
+                <div className="my-2 my-md-0">Feels like {getCelsius(weatherInfo?.main?.feels_like)} °C</div>
                 <div className="fst-italic">{weatherInfo?.weather?.[0].description}</div>
             </div>
             <div>

@@ -25,21 +25,20 @@ const FavoritesList = () => {
         });
     };
 
-    // Generate the list elements based on the favorites list
     const elements = renderFavoritesList(favoritesList);
 
     return (
-        <>
+        <div className="container">
             <nav className="p-3 d-flex align-items-center justify-content-between bg-darker">
                 <button className="btn btn-outline-light" onClick={() => navigate("/")}>
                     Back
                 </button>
                 <div className="me-3 text-warning">Favorites cities</div>
             </nav>
-            <section>
+            <section className="mt-4">
                 <ul className="container">{elements}</ul>
             </section>
-        </>
+        </div>
     );
 };
 

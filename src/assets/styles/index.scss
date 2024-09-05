@@ -1,5 +1,6 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@import "weather-react-icons/lib/css/weather-icons.css";
 @import "animate.css";
 
 * {
@@ -7,6 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Quicksand", sans-serif;
+    font-size: 16px;
 }
 
 ul {
@@ -14,3 +16,13 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+.forecast-icon {
+    font-size: 2rem;
+}
+
+.font-size {
+    font-size: 1.3rem;
+}
+
+@import "./media.scss";

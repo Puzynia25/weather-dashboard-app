@@ -52,17 +52,18 @@ const WeatherPage = () => {
     }
 
     return (
-        <div className="animate__animated animate__fadeIn d-flex flex-column h-100">
+        <div className="px-5 px-sm-0 animate__animated animate__fadeIn d-flex flex-column container">
             <nav className="p-3 d-flex align-items-center justify-content-between bg-darker">
                 <SearchForm />
                 <FavoritesListButton />
             </nav>
+
             <section className="mt-auto">
                 <div className="mt-3 badge bg-warning text-dark p-2 cursor added-btn" onClick={onAddFavorite}>
                     {favoriteButtonText}
                 </div>
 
-                <div className="d-flex column-gap-5 my-5">
+                <div className="d-sm-flex gap-5 my-5">
                     <WeatherSummary weatherInfo={weatherInfo} loadingStatus={loadingStatus} />
                 </div>
             </section>

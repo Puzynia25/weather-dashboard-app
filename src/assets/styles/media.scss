@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+    .forecast-icon {
+        font-size: 1.5rem;
+    }
+
+    .temp {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    * {
+        font-size: 1.2rem;
+    }
+
+    .temp {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 431px) {
+    * {
+        font-size: 0.9rem;
+    }
+    .forecast-icon {
+        font-size: 1rem;
+    }
+}
